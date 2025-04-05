@@ -382,7 +382,7 @@ people.forEach((person) => {
   centuryCell.textContent = century;
 
   row.appendChild(nameCell);
-  row.appendChild(sexCell);
+  row.appendChild(genderCell);
   row.appendChild(bornCell);
   row.appendChild(diedCell);
   row.appendChild(ageCell);
