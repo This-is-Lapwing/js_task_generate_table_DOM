@@ -365,7 +365,7 @@ people.forEach((person) => {
   nameCell.textContent = person.name;
 
   const genderCell = document.createElement('td');
-  genderCell.textContent = person.gender;
+  genderCell.textContent = person.sex;
 
   const bornCell = document.createElement('td');
   bornCell.textContent = person.born;
@@ -382,7 +382,7 @@ people.forEach((person) => {
   centuryCell.textContent = century;
 
   row.appendChild(nameCell);
-  row.appendChild(genderCell);
+  row.appendChild(sexCell);
   row.appendChild(bornCell);
   row.appendChild(diedCell);
   row.appendChild(ageCell);
